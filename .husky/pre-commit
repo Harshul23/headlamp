@@ -1,1 +1,3 @@
-npm test
+# Run frontend tests only (backend tests require Go installation)
+# To run full test suite including backend tests, use: npm test
+npm run frontend:test
