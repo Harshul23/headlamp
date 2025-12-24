@@ -30,6 +30,7 @@ Headlamp uses automated commit message linting to ensure consistency. All commit
 **Valid areas**: `frontend`, `backend`, `app`, `docs`, `ci`, `chore`, `test`, `refactor`, `plugin`, `plugins`, `chart`, `charts`, `docker`, `e2e`, `i18n`, `build`, `release`, `revert`
 
 **Examples**:
+
 - ✅ `frontend: Fix navigation to home page`
 - ✅ `backend: Add enable-dynamic-clusters flag`
 - ✅ `docs: Update installation instructions`
@@ -37,6 +38,7 @@ Headlamp uses automated commit message linting to ensure consistency. All commit
 - ❌ `Frontend: fix button` (area must be lowercase)
 
 **Rules**:
+
 - Area must be lowercase
 - Keep header under 72 characters
 - Be clear and descriptive
@@ -44,6 +46,7 @@ Headlamp uses automated commit message linting to ensure consistency. All commit
 ### Automated Validation
 
 Commits are validated:
+
 1. **Locally** via Git hook when you commit
 2. **In CI** when you open a pull request
 
